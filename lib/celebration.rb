@@ -1,5 +1,4 @@
+require 'backports'
 require "celebration/version"
 
-module Celebration
-  # Your code goes here...
-end
+require_relative 'celebration/corext'
